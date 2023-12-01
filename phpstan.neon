@@ -1,0 +1,13 @@
+parameters:
+    level: max
+    tmpDir: config/cache/phpstan
+    paths:
+        - app
+        - config
+        - public/index.php
+        - src
+        - tests
+    excludePaths:
+        - config/cache/phpstan
+    bootstrapFiles:
+        - %rootDir%/../../autoload.php
